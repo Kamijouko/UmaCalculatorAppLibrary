@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AppLibrary
 {
-    public class Source  
+    public class Source   
     {
         public string name;
 

@@ -9,7 +9,7 @@ namespace AppLibrary
 {
     public class MainLoad 
     {
-        public List<Source> sourceList = new List<Source>();
+        public List<Source> sourceList = new List<Source>(); 
 
         private List<string> constSources = new List<string> { "Twitter@gamedukedeatho1.0", "Twitter@gamedukedeatho2.0", "NGA"/*, "Twitter@Lig_Rig"*/};
 

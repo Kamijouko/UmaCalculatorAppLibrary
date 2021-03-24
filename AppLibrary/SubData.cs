@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AppLibrary
 {
-    public class SubData
+    public class SubData 
     { 
         public string name;
 
