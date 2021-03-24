@@ -7,7 +7,7 @@ using System.Xml;
 
 namespace AppLibrary
 {
-    public class MainLoad
+    public class MainLoad 
     {
         public List<Source> sourceList = new List<Source>();
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AppLibrary
 {
-    public class ValueData
+    public class ValueData 
     {
         public List<int> valueList = new List<int>();
 

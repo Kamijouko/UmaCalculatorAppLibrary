@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace AppLibrary
 {
     public class SubData
-    {
+    { 
         public string name;
 
         public ValueData value;
