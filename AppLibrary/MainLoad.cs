@@ -11,9 +11,9 @@ namespace AppLibrary
     {
         public List<Source> sourceList = new List<Source>();
 
-        private List<string> constSources = new List<string> { "Twitter@gamedukedeatho1.0", "Twitter@gamedukedeatho2.0", "NGA", "Twitter@Lig_Rig" };
+        private List<string> constSources = new List<string> { "Twitter@gamedukedeatho1.0", "Twitter@gamedukedeatho2.0", "NGA"/*, "Twitter@Lig_Rig"*/};
 
-        public List<string> sources = new List<string> { "Twitter@gamedukedeatho1.0", "Twitter@gamedukedeatho2.0", "NGA", "Twitter@Lig_Rig" };
+        public List<string> sources = new List<string> { "Twitter@gamedukedeatho1.0", "Twitter@gamedukedeatho2.0", "NGA"/*, "Twitter@Lig_Rig"*/ };
 
         public List<Source> newSources = new List<Source>();
 
