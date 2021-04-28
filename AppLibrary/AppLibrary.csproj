@@ -43,6 +43,8 @@
   <ItemGroup>
     <Compile Include="MainLoad.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RaceSource.cs" />
+    <Compile Include="SubRaceData.cs" />
     <Compile Include="Source.cs" />
     <Compile Include="SubData.cs" />
     <Compile Include="ValueData.cs" />
