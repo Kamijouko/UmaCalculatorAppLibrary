@@ -40,6 +40,7 @@ namespace AppLibrary
         public SubData a28;
         public SubData a29;
         public SubData a30;
+        public SubData a31;
 
         public List<SubData> listA = new List<SubData>();
 
@@ -287,42 +288,44 @@ namespace AppLibrary
             a23 = new SubData("真机伶", 23);
             a24 = new SubData("樱花暴进王", 24);
             a25 = new SubData("超级小海湾", 25);
-            a26 = new SubData("成田大进", 26);
-            a27 = new SubData("春麗", 27);
-            a28 = new SubData("待兼福来", 28);
-            a29 = new SubData("优秀素质", 29);
-            a30 = new SubData("帝王光环", 30);
+            a26 = new SubData("醒目飞鹰", 26);
+            a27 = new SubData("成田大进", 27);
+            a28 = new SubData("春麗", 28);
+            a29 = new SubData("待兼福来", 29);
+            a30 = new SubData("优秀素质", 30);
+            a31 = new SubData("帝王光环", 31);
 
-            a1.value.valueList = new List<int> { 00,23,20,11,25,26,26,17,09,31,27,25,31,26,18,25,26,18,24,23,25,27,10,09,29,17,07,28,35,24 };
-               a2.value.valueList = new List<int> { 00,18,17,18,19,16,17,14,18,20,17,19,16,18,18,26,26,18,17,20,18,10,13,20,17,03,27,19,11 };
-                  a3.value.valueList = new List<int> { 00,09,18,20,24,30,17,17,31,24,27,28,26,25,20,20,17,25,21,19,18,17,24,19,03,17,21,13 };
-                     a4.value.valueList = new List<int> { 00,18,09,15,17,24,17,08,17,08,11,09,09,15,30,08,10,10,10,14,16,11,09,07,10,08,16 };
-                        a5.value.valueList = new List<int> { 00,20,31,24,18,30,18,23,20,19,16,18,20,24,25,16,24,26,10,09,26,17,03,25,26,17 };
-                           a6.value.valueList = new List<int> { 00,16,18,09,17,31,17,29,28,19,31,30,18,19,25,18,22,09,09,28,27,11,19,26,11 };
-                              a7.value.valueList = new List<int> { 00,34,16,29,21,23,18,17,20,16,16,25,22,15,25,24,12,08,17,16,03,23,24,18 };
-                                 a8.value.valueList = new List<int> { 00,22,23,28,30,24,24,27,24,17,23,14,22,17,17,19,15,25,16,04,17,16,11 };
-                                    a9.value.valueList = new List<int> { 00,19,16,27,17,20,16,16,09,24,11,21,11,09,23,29,16,08,07,15,09,17 };
-                                      a10.value.valueList = new List<int> { 00,16,35,19,19,16,16,18,23,25,18,23,22,07,10,15,15,03,23,24,23 };
-                                         a11.value.valueList = new List<int> { 00,22,33,31,25,35,28,18,22,33,19,19,18,18,34,18,04,19,27,14 };
-                                            a12.value.valueList = new List<int> { 00,26,27,23,23,16,22,17,26,16,16,14,17,23,15,02,16,17,15 };
-                                               a13.value.valueList = new List<int> { 00,35,24,36,29,18,16,32,19,18,16,16,33,19,05,17,26,12 };
-                                                  a14.value.valueList = new List<int> { 00,25,33,26,17,17,36,18,18,14,17,33,17,01,16,22,10 };
-                                                     a15.value.valueList = new List<int> { 00,25,16,17,17,22,18,19,17,17,25,18,03,17,17,12 };
-                                                        a16.value.valueList = new List<int> { 00,28,17,18,32,17,26,16,16,34,25,02,18,24,10 };
-                                                           a17.value.valueList = new List<int> { 00,24,17,25,17,20,09,09,27,17,03,19,25,10 };
-                                                              a18.value.valueList = new List<int> { 00,16,18,21,18,16,19,17,18,09,19,18,18 };
-                                                                 a19.value.valueList = new List<int> { 00,19,24,25,07,14,16,18,01,23,25,16 };
-                                                                    a20.value.valueList = new List<int> { 00,18,16,15,21,32,15,02,19,24,09 };
-                                                                       a21.value.valueList = new List<int> { 00,24,10,11,18,18,03,27,26,19 };
-                                                                          a22.value.valueList = new List<int> { 00,09,10,19,25,03,25,25,17 };
-                                                                             a23.value.valueList = new List<int> { 00,23,16,10,10,09,09,17 };
-                                                                                a24.value.valueList = new List<int> { 00,17,08,10,13,12,16 };
-                                                                                   a25.value.valueList = new List<int> { 00,20,03,21,25,10 };
-                                                                                      a26.value.valueList = new List<int> { 00,10,17,18,11 };
-                                                                                         a27.value.valueList = new List<int> { 00,03,05,13 };
-                                                                                            a28.value.valueList = new List<int> { 00,25,18 };
-                                                                                               a29.value.valueList = new List<int> { 00,20 };
-                                                                                                  a30.value.valueList = new List<int> { 00 };
+            a1.value.valueList = new List<int> { 00,23,20,11,25,26,26,17,09,31,27,25,31,26,18,25,26,18,24,23,25,27,10,09,29,10,17,07,28,35,24 };
+               a2.value.valueList = new List<int> { 00,18,17,18,19,16,17,14,18,20,17,19,16,18,18,26,26,18,17,20,18,10,13,20,17,17,03,27,19,11 };
+                  a3.value.valueList = new List<int> { 00,09,18,20,24,30,17,17,31,24,27,28,26,25,20,20,17,25,21,19,18,17,24,12,19,03,17,21,13 };
+                     a4.value.valueList = new List<int> { 00,18,09,15,17,24,17,08,17,08,11,09,09,15,30,08,10,10,10,14,16,11,16,09,07,10,08,16 };
+                        a5.value.valueList = new List<int> { 00,20,31,24,18,30,18,23,20,19,16,18,20,24,25,16,24,26,10,09,26,17,17,03,25,26,17 };
+                           a6.value.valueList = new List<int> { 00,16,18,09,17,31,17,29,28,19,31,30,18,19,25,18,22,09,09,28,13,27,11,19,26,11 };
+                              a7.value.valueList = new List<int> { 00,34,16,29,21,23,18,17,20,16,16,25,22,15,25,24,12,08,17,18,16,03,23,24,18 };
+                                 a8.value.valueList = new List<int> { 00,22,23,28,30,24,24,27,24,17,23,14,22,17,17,19,15,25,17,16,04,17,16,11 };
+                                    a9.value.valueList = new List<int> { 00,19,16,27,17,20,16,16,09,24,11,21,11,09,23,29,16,08,08,07,15,09,17 };
+                                      a10.value.valueList = new List<int> { 00,16,35,19,19,16,16,18,23,25,18,23,22,07,10,15,15,15,03,23,24,23 };
+                                         a11.value.valueList = new List<int> { 00,22,33,31,25,35,28,18,22,33,19,19,18,18,34,12,18,04,19,27,14 };
+                                            a12.value.valueList = new List<int> { 00,26,27,23,23,16,22,17,26,16,16,14,17,23,16,15,02,16,17,15 };
+                                               a13.value.valueList = new List<int> { 00,35,24,36,29,18,16,32,19,18,16,16,33,10,19,05,17,26,12 };
+                                                  a14.value.valueList = new List<int> { 00,25,33,26,17,17,36,18,18,14,17,33,09,17,01,16,22,10 };
+                                                     a15.value.valueList = new List<int> { 00,25,16,17,17,22,18,19,17,17,25,13,18,03,17,17,12 };
+                                                        a16.value.valueList = new List<int> { 00,28,17,18,32,17,26,16,16,34,13,25,02,18,24,10 };
+                                                           a17.value.valueList = new List<int> { 00,24,17,25,17,20,09,09,27,17,17,03,19,25,10 };
+                                                              a18.value.valueList = new List<int> { 00,16,18,21,18,16,19,17,25,18,09,19,18,18 };
+                                                                 a19.value.valueList = new List<int> { 00,19,24,25,07,14,16,11,18,01,23,25,16 };
+                                                                    a20.value.valueList = new List<int> { 00,18,16,15,21,32,08,15,02,19,24,09 };
+                                                                       a21.value.valueList = new List<int> { 00,24,10,11,18,11,18,03,27,26,19 };
+                                                                          a22.value.valueList = new List<int> { 00,09,10,19,13,25,03,25,25,17 };
+                                                                             a23.value.valueList = new List<int> { 00,23,16,02,10,10,09,09,17 };
+                                                                                a24.value.valueList = new List<int> { 00,17,02,08,10,13,12,16 };
+                                                                                   a25.value.valueList = new List<int> { 00,11,20,03,21,25,10 };
+                                                                                      a26.value.valueList = new List<int> { 00,12,10,10,11,05 };
+                                                                                         a27.value.valueList = new List<int> { 00,10,17,18,11 };
+                                                                                            a28.value.valueList = new List<int> { 00,03,05,13 };
+                                                                                               a29.value.valueList = new List<int> { 00,25,18 };
+                                                                                                  a30.value.valueList = new List<int> { 00,20 };
+                                                                                                     a31.value.valueList = new List<int> { 00 };
 
 
             listA.Add(a1);
@@ -355,6 +358,7 @@ namespace AppLibrary
             listA.Add(a28);
             listA.Add(a29);
             listA.Add(a30);
+            listA.Add(a31);
         }
     }
 }
